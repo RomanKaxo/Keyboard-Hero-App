@@ -18,7 +18,7 @@ export function Avatar({ name, src, online, size = 40 }: AvatarProps) {
       {src ? (
         <img src={src} alt={name} className="w-full h-full rounded-full object-cover" />
       ) : (
-        <div className="w-full h-full rounded-full bg-gradient-to-br from-periwinkle to-magenta flex items-center justify-center text-text-primary font-heading font-semibold text-sm">
+        <div className="w-full h-full rounded-full bg-ink flex items-center justify-center text-bg font-heading font-semibold text-sm">
           {initials}
         </div>
       )}

@@ -3,10 +3,10 @@ import type { ButtonHTMLAttributes } from 'react'
 type Variant = 'primary' | 'secondary' | 'ghost' | 'destructive'
 
 const variantClasses: Record<Variant, string> = {
-  primary: 'bg-gradient-to-r from-periwinkle to-magenta text-text-primary shadow-lg shadow-magenta/30',
-  secondary: 'bg-gradient-to-r from-periwinkle to-periwinkle-dark text-text-primary shadow-lg shadow-periwinkle/30',
+  primary: 'bg-coral-dark text-bg shadow-md shadow-coral-dark/20',
+  secondary: 'bg-coral-tint text-coral-dark',
   ghost: 'bg-transparent text-text-primary border border-border hover:bg-bg-card',
-  destructive: 'bg-gradient-to-r from-coral to-magenta text-text-primary shadow-lg shadow-coral/30',
+  destructive: 'bg-ink text-bg',
 }
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {

@@ -5,34 +5,25 @@
   --font-heading: 'Poppins', 'Segoe UI', sans-serif;
   --font-body: 'Inter', 'Segoe UI', sans-serif;
 
-  --color-bg: #0b0818;
-  --color-bg-card: #1b2062;
-  --color-bg-card-alt: #241c3d;
+  --color-bg: #f6f4f1;
+  --color-bg-card: #e4ded2;
+  --color-bg-card-alt: #edeae5;
 
-  --color-periwinkle: #bf40fa;
-  --color-periwinkle-dark: #4928c2;
-  --color-magenta: #e02f75;
-  --color-magenta-dark: #a81f58;
-  --color-coral: #ff5a57;
-  --color-coral-dark: #c23a38;
+  --color-coral: #f95c4b;
+  --color-coral-dark: #e14432;
+  --color-coral-tint: #fde0db;
+  --color-ink: #0a0a0a;
 
-  --color-xp-pink: #fccbf0;
-  --color-text-primary: #f8f5ff;
-  --color-text-muted: #9186b8;
-  --color-border: #3a2f5c;
+  --color-text-primary: #0a0a0a;
+  --color-text-muted: #8c8578;
+  --color-border: #dcd5c7;
 }
 
 @layer base {
   body {
     font-family: var(--font-body);
     color: var(--color-text-primary);
-    background: radial-gradient(
-      circle at 25% 15%,
-      #3a1b6e 0%,
-      #1b2062 38%,
-      #0b0818 72%,
-      #040607 100%
-    );
+    background: var(--color-bg);
     min-height: 100vh;
     margin: 0;
   }
